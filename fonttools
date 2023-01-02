@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-import sys
-import os.path
-
-libdir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'Lib')
-sys.path.insert(0, libdir)
-
-from fontTools.__main__ import main
-
-if __name__ == '__main__':
-	sys.exit(main())
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2b45c4380416720e3516bd5b69f326c46bedfadd920c4056ede9de9e2979ffd
+size 234

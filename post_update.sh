@@ -1,6 +1,3 @@
-#!/bin/bash
-
-# $1 Path to the new version.
-# $2 Path to the old version.
-
-cp -a -n $2/Lib/fontTools/Android.bp $1/Lib/fontTools/
+version https://git-lfs.github.com/spec/v1
+oid sha256:f02bf691aedc368a3893a091c078af4f74aa5faeea83de8540be1ad5e3200bed
+size 129

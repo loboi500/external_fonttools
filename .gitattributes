@@ -1,11 +1,36 @@
 # Set the default behavior, in case people don't have core.autocrlf set.
 * text=auto
-
 # Explicitly declare text files you want to always be normalized and converted
 # to native line endings on checkout.
 *.py text
-
 # Font files are binary (so that autocrlf doesn't muck with them)
 *.lwfn binary
 *.pfa binary
 *.pfb binary
+Icons filter=lfs diff=lfs merge=lfs -text
+Makefile filter=lfs diff=lfs merge=lfs -text
+Snippets filter=lfs diff=lfs merge=lfs -text
+tox.ini filter=lfs diff=lfs merge=lfs -text
+dev-requirements.txt filter=lfs diff=lfs merge=lfs -text
+CODE_OF_CONDUCT.md filter=lfs diff=lfs merge=lfs -text
+Lib filter=lfs diff=lfs merge=lfs -text
+MetaTools filter=lfs diff=lfs merge=lfs -text
+MODULE_LICENSE_HPND filter=lfs diff=lfs merge=lfs -text
+Android.bp filter=lfs diff=lfs merge=lfs -text
+NOTICE filter=lfs diff=lfs merge=lfs -text
+NEWS.rst filter=lfs diff=lfs merge=lfs -text
+OWNERS filter=lfs diff=lfs merge=lfs -text
+README.rst filter=lfs diff=lfs merge=lfs -text
+LICENSE.external filter=lfs diff=lfs merge=lfs -text
+MANIFEST.in filter=lfs diff=lfs merge=lfs -text
+setup.py filter=lfs diff=lfs merge=lfs -text
+CONTRIBUTING.md filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text
+mypy.ini filter=lfs diff=lfs merge=lfs -text
+Tests filter=lfs diff=lfs merge=lfs -text
+fonttools filter=lfs diff=lfs merge=lfs -text
+METADATA filter=lfs diff=lfs merge=lfs -text
+post_update.sh filter=lfs diff=lfs merge=lfs -text
+requirements.txt filter=lfs diff=lfs merge=lfs -text
+setup.cfg filter=lfs diff=lfs merge=lfs -text
+Doc filter=lfs diff=lfs merge=lfs -text

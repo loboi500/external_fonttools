@@ -1,25 +1,3 @@
-all:
-	./setup.py build
-
-dist:
-	./setup.py sdist bdist_wheel
-
-install:
-	pip install --ignore-installed .
-
-install-user:
-	pip install --ignore-installed --user .
-
-uninstall:
-	pip uninstall --yes fonttools
-
-check: all
-	pytest
-
-clean:
-	./setup.py clean --all
-
-docs:
-	cd Doc && $(MAKE) html
-
-.PHONY: all dist install install-user uninstall check clean docs
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d41add8022ac5b6707aae70edfd687e05de499f0f13c62b895705ec08e2f668
+size 352
